@@ -30,11 +30,33 @@ body{
 #top-doc{
   width: 100%;
   background-color: #ff6200;
+  padding: 5px 0 35px 0;
+  font-size: 20px;
+}
+
+.header-snippet{
+  display: inline;
 }
 
 .header-snippet h5{
-  margin: 0;
-  padding: 0;
+  display: inline-block;
+}
+
+.header-snippet h5:first-child{
+  color: #be3600;
+  margin-right: 10px;
+}
+
+.header-snippet h5:last-child{
+  color: white;
+}
+
+#head-contact{
+  float: left;
+}
+
+#login-options{
+  float: right;
 }
 
 /*------- middle of document --------*/
@@ -47,11 +69,8 @@ body{
 }
 
 .your-logo{
-  /* might replace */
   position: relative;
   top: 50%;
-  /* transform: translateY(-50%); */
-  /* ------------- */
   float: left;
   margin: 0;
   font-size: 50px;
@@ -95,13 +114,15 @@ body{
 }
 
 #contact-us{
-  width: 30%;
+  width: 25%;
   display: table-cell;
+  padding-right: 2.5%;
 }
 
 #reach-us{
-  width: 30%;
+  width: 25%;
   display: table-cell;
+  padding-left: 2.5%;
 }
 
 .sub-head{
