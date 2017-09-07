@@ -1,5 +1,5 @@
-## PSD Exercise 1
+# PSD Exercise 1
 
-# Sample
+## Original
 
 ![Alt text](/CT_SkillTest_v1.png?raw=true "Coalition")
