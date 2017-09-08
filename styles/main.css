@@ -62,10 +62,9 @@ body{
 /*------- middle of document --------*/
 #mid-doc{
   width: 100%;
-  height: 25%;
+  height: 100px;
+  clear: both;
   background-color: #f9f9f9;
-  border-bottom: 1px solid red;
-
 }
 
 .your-logo{
@@ -90,6 +89,7 @@ body{
 
 /*------- bottom of document --------*/
 #bottom-doc{
+  clear: both;
   width: 100%;
   background-color: white;
 }
@@ -126,7 +126,7 @@ body{
 #input-phone{
   width: 49%;
   padding: 0.5% 2% 0.5% 1%;
-  margin: 1% 1.25% 1% 0;
+  margin: 1% 1% 1% 0;
 }
 #input-email{
   width: 49%;
