@@ -118,6 +118,26 @@ body{
   display: table-cell;
   padding-right: 2.5%;
 }
+#input-name{
+  width: 100%;
+  padding: 0.5% 2% 0.5% 1%;
+  margin: 2% 0 1% 0;
+}
+#input-phone{
+  width: 49%;
+  padding: 0.5% 2% 0.5% 1%;
+  margin: 1% 1.25% 1% 0;
+}
+#input-email{
+  width: 49%;
+  padding: 0.5% 2% 0.5% 1%;
+  margin: 1% 0 1% 0;
+}
+#input-message{
+  width: 100%;
+  padding: 0.5% 2% 15% 1%;
+  margin: 1% 0 1% 0;
+}
 
 #reach-us{
   width: 25%;
@@ -134,6 +154,25 @@ body{
   margin: 0;
   padding: 0;
   border-bottom: 6px solid gray;
+}
+
+.sub-body input[type="text"], textarea{
+  background-color: #f9f9f9;
+  border: 1px solid #f0f0f0;
+}
+
+#reach-us .sub-body{
+  padding: 5px 0 5px 0;
+}
+
+#reach-us .sub-body h5{
+  font-size: 15px;
+  padding: 5px 0 5px 0;
+}
+
+#reach-us .sub-body p{
+  color: grey;
+  line-height: 15px;
 }
 
 #submit-button .btn{
