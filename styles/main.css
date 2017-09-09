@@ -64,6 +64,7 @@ body{
   width: 100%;
   height: 100px;
   background-color: #f9f9f9;
+  margin-bottom: 2%;
 }
 
 .your-logo{
@@ -75,15 +76,20 @@ body{
   font-family: 'Oswald', sans-serif;
 }
 
-.ext-links ul{
-  vertical-align: middle;
-  float: right;
+.ext-links{
   position: relative;
-  top: 50%;
+  top: 35px;
+}
+.ext-links ul{
+  float: right;
 }
 .ext-links li{
   display: inline;
   padding: 0 2% 0 2%;
+}
+.ext-links li:hover{
+  font-weight: bold;
+  cursor: pointer;
 }
 
 
@@ -98,12 +104,20 @@ body{
   clear: both;
   color: grey;
   width: 100%;
+  margin-bottom: 2%;
 }
 
 #contact-description{
   width: 100%;
   display: block;
+  color: grey;
   clear: both;
+  margin-bottom: 2%;
+}
+
+#contact-description p{
+  line-height: 20px;
+  font-size: 16px;
 }
 
 /* table */
@@ -111,6 +125,7 @@ body{
   margin: 0 auto;
   width: 65%;
   display: table;
+  margin-bottom: 2%;
 }
 
 #contact-us{
@@ -143,6 +158,8 @@ body{
   width: 25%;
   display: table-cell;
   padding-left: 2.5%;
+  height: 100%;
+  position: relative;
 }
 
 .sub-head{
@@ -188,14 +205,18 @@ body{
   padding: 0 11px 0 10px;
 }
 .ionicons{
-  margin-top: 2%;
   width: 100%;
+  margin-bottom: 10px;
+  float: bottom;
+  position: absolute;
+  bottom: 0;
 }
 .ionicons ul li{
   display: inline;
   margin: 0 2px 0 0;
 }
 .ionicons ul li i{
+  cursor: pointer;
   width: 100%;
   padding-top: 5px;
   font-size: 20px;
