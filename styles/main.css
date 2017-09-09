@@ -82,14 +82,16 @@ body{
 }
 .ext-links ul{
   float: right;
+  padding: 0 1% 0 1%;
 }
 .ext-links li{
   display: inline;
-  padding: 0 2% 0 2%;
+  margin: 0 2% 0 2%;
 }
 .ext-links li:hover{
   font-weight: bold;
   cursor: pointer;
+  border-bottom: 5px solid #ff6200;
 }
 
 
@@ -162,14 +164,9 @@ body{
   position: relative;
 }
 
-.sub-head{
-  margin: 0;
-  padding: 0;
-}
-
 .sub-head h3{
-  margin: 0;
-  padding: 0;
+  margin-bottom: 1%;
+  padding-bottom: 0.5%;
   border-bottom: 6px solid gray;
 }
 
@@ -183,12 +180,13 @@ body{
 }
 
 #reach-us .sub-body h5{
-  font-size: 15px;
+  font-size: 14px;
   padding: 5px 0 5px 0;
 }
 
 #reach-us .sub-body p{
-  color: grey;
+  font-size: 14px;
+  color: #585858;
   line-height: 15px;
 }
 
@@ -230,17 +228,17 @@ body{
 #submit-button .btn{
   color: white;
   border: none;
-  width: 120px;
+  width: 100px;
   height: 35px;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 #submit-button .btn:hover{
   cursor: pointer;
 }
 
-@media screen and (max-width: 760px){
+@media(max-width: 760px){
 
 }
 
