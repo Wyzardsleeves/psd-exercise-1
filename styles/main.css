@@ -22,7 +22,7 @@ body{
 }
 
 .main-contain{
-  max-width: 65%;
+  max-width: 60%;
   margin: 0 auto;
 }
 
@@ -89,30 +89,10 @@ body{
   /* 'BenchNine', sans-serif; */
 }
 
-/* original links -----
-.ext-links{
-  position: relative;
-  top: 45px;
-}
-.ext-links ul{
-  float: right;
-  padding: 0 1% 0 1%;
-}
-.ext-links li{
-  display: inline;
-  margin: 0 2% 0 2%;
-}
-.ext-links li:hover{
-  font-weight: bold;
-  cursor: pointer;
-  border-bottom: 5px solid #ff6200;
-}
------------------------ */
-
 .ext-links{
   float: right;
   display: inline;
-  width: 600px;
+  width: 550px;
   position: relative;
   top: 45px;
 }
@@ -144,7 +124,7 @@ body{
   display: block;
 }
 .dropbtn{
-  margin: 0 20px;
+  margin: 0 16px;
 }
 .dropdown:hover .dropbtn {
   cursor: pointer;
@@ -214,7 +194,6 @@ body{
   width: 100%;
   display: block;
   color: grey;
-  clear: both;
   margin-bottom: 2%;
 }
 #contact-description p{
@@ -225,7 +204,7 @@ body{
 /* table */
 .table-part{
   margin: 0 auto;
-  width: 65%;
+  width: 60%;
   display: table;
   margin-bottom: 2%;
 }
